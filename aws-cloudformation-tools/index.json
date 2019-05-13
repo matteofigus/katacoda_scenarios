@@ -1,6 +1,7 @@
 {
   "title": "AWS CloudFormation Developer Tools",
   "description": "Scenarios for learning the AWS CloudFormation Developer Tools",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
