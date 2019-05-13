@@ -18,13 +18,12 @@ Now you can see the available commands by typing:
 ## Step 3: Create a new template
 
 Let's create a simple template for a Bucket and an Instance.
-Note the `b` parameter for creating the bare minimum configuration.
+
+`cfn-skeleton Bucket EC2::Instance`{{execute}}
+
+Well, that's a lot of stuff! You can use the `-b` parameter for creating the bare minimum configuration:
 
 `cfn-skeleton -b Bucket EC2::Instance`{{execute}}
-
-If we need IAM, we can also use the `i` parameter
-
-`cfn-skeleton -b -i Bucket EC2::Instance`{{execute}}
 
 ## Conclusion
 
