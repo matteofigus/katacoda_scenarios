@@ -4,8 +4,12 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "cfn-flip",
         "text": "step1.md"
+      },
+      {
+        "title": "cfn-skeleton",
+        "text": "step2.md"
       }
     ],
     "intro": {
