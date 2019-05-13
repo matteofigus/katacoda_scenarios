@@ -19,10 +19,10 @@ Now you can see the available commands by typing:
 
 ## Step 3: Flip it
 
-To test the tool we'll use a JSON: `assets/example.json`{{open}}
+To test the tool we'll use a JSON: `/matteofigus/scenarios/aws-cloudformation-tools/assets/example.json`{{open}}
 
 Reading from stdin and outputting to stdout:
-`cat assets/test.json | cfn-flip`{{execute}}
+`cat example.json | cfn-flip`{{execute}}
 
 
 ## Visit the docs

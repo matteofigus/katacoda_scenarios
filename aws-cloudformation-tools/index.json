@@ -14,7 +14,12 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "files": [
+          {"file": "example.json", "target": "/root/"}
+      ]
+  }
   },
   "environment": {
     "uilayout": "editor-terminal"
