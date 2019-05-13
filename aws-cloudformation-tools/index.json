@@ -1,6 +1,6 @@
 {
-  "title": "AWS CloudFormation dev tools",
-  "description": "Scenarios for learning the new AWS CloudFormation developer tools",
+  "title": "AWS CloudFormation Developer Tools",
+  "description": "Scenarios for learning the AWS CloudFormation Developer Tools",
   "details": {
     "steps": [
       {
@@ -19,6 +19,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "bash"
   }
 }
