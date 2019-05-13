@@ -10,7 +10,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "background.sh"
+      "courseData": "background.sh"
     },
     "finish": {
       "text": "finish.md"
