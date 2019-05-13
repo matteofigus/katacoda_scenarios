@@ -20,6 +20,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }
