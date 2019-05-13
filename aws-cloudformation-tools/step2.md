@@ -1,0 +1,33 @@
+# Writing new templates
+
+CloudFormation templates are very easy to read but writing a new template requires memorising the properties of each resource you are creating.
+
+AWS Cloudformation Template Builder is a command line tool and Go library that consumes the published [CloudFormation specification](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-resource-specification.html) and generates skeleton CloudFormation templates with mandatory and optional parameters of chosen resource types pre-filled with placeholder values.
+
+## Step 1: Install 
+
+AWS CloudFormation Template Builder can be installed using snap:
+`snap install cfn-skeleton`{{execute}}
+
+## Step 2: Try it
+
+Now you can see the available commands by typing:
+
+`cfn-skeleton`{{execute}}
+
+## Step 3: Create a new template
+
+Let's create a simple template for a Bucket and an Instance.
+Note the `b` parameter for creating the bare minimum configuration.
+
+`cfn-skeleton -b Bucket EC2::Instance`{{execute}}
+
+If we need IAM, we can also use the `i` parameter
+
+`cfn-skeleton -b -i Bucket EC2::Instance`{{execute}}
+
+## Conclusion
+
+We'll remind you the repo link at the end of the tutorial, for you to take a photo in case you want to remember the link: [github.com/awslabs/aws-cloudformation-template-builder](https://github.com/awslabs/aws-cloudformation-template-builder).
+
+Now go to the next step to learn about another tool.
