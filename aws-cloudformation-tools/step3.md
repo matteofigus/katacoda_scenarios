@@ -17,10 +17,12 @@ Now you can see the available commands by typing:
 
 ## Step 3: Prettify a template
 
-TODO
+Try using cfn-format to prettify a template. You can use JSON or YAML as input.
+
+`cfn-format example.json`{{execute}}
+
+Note the way properties are sorted and prettified. This makes Diffing changes very easy!
 
 ## Conclusion
 
 We'll remind you the repo link at the end of the tutorial, for you to take a photo in case you want to remember the link: [github.com/awslabs/aws-cloudformation-template-formatter](https://github.com/awslabs/aws-cloudformation-template-formatter).
-
-Now go to the next step to learn about another tool.
