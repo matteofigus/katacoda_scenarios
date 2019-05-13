@@ -27,15 +27,15 @@ Reading from stdin and outputting to stdout:
 
 Reading from a file and outputting to stdout:
 
-`cfn-flip examples/test.yaml`{{execute}}
+`cfn-flip example.json`{{execute}}
 
 Reading from a file and outputting to another file:
 
-`cfn-flip examples/test.json output.yaml`{{execute}}
+`cfn-flip example.json output.yaml`{{execute}}
 
 Reading from a file and cleaning up the output:
 
-`cfn-flip -c examples/test.json`{{execute}}
+`cfn-flip -c example.json`{{execute}}
 
 ## Conclusion
 
