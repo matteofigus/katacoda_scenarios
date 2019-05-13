@@ -6,11 +6,23 @@ AWS CloudFormation Template Flip is a tool that converts [AWS CloudFormation](ht
 
 The term "Flip" is inspired by the well-known Unix command-line tool [flip](https://ccrma.stanford.edu/~craig/utility/flip/) which converts text files between Unix, Mac, and MS-DOS formats.
 
-## Install 
+## Step 1: Install 
 
-AWS CloudFormation Template Flip can be installed using [pip](https://pip.pypa.io/en/stable/):
-
+AWS CloudFormation Template Flip can be installed using snap:
 `snap install cfn-flip`{{execute}}
+
+## Step 2: Try it
+
+Now you can see the available commands by typing:
+
+`cfn-flip`{{execute}}
+
+## Step 3: Flip it
+
+To test the tool we'll use a JSON: `examples/example.json`{{open}}
+
+Reading from stdin and outputting to stdout:
+`cat examples/test.json | cfn-flip`{{execute}}
 
 
 ## Visit the docs
