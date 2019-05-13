@@ -16,10 +16,8 @@
       "text": "finish.md"
     },
     "assets": {
-      "files": [
-          {"file": "example.json", "target": "/root/"}
-      ]
-  }
+      "files": [{ "file": "example.json", "target": "/home/" }]
+    }
   },
   "environment": {
     "uilayout": "editor-terminal"
