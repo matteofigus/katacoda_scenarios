@@ -20,7 +20,7 @@ Now you can see the available commands by typing:
 ## Step 3: Flip it
 
 To test the tool let's create a basic JSON template:
-`echo '{"Description": "Test","Foo": { "Fn::Join": [" ", ["The", { "Ref": "cake" }, "is", "a", "lie"]] },"Bar": { "Fn::Base64": { "Ref": "Binary" } },"Baz": { "Fn::Sub": ["The cake is a...\n${CakeStatus}", { "CakeStatus": "lie" }] }}' >> example.json`
+`echo '{"Description": "Test","Foo": { "Fn::Join": [" ", ["The", { "Ref": "cake" }, "is", "a", "lie"]] },"Bar": { "Fn::Base64": { "Ref": "Binary" } },"Baz": { "Fn::Sub": ["The cake is a...\n${CakeStatus}", { "CakeStatus": "lie" }] }}' >> example.json`{{execute}}
 
 Reading from stdin and outputting to stdout:
 `cat example.json | cfn-flip`{{execute}}
