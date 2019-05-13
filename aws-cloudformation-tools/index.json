@@ -14,13 +14,10 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "files": [{ "file": "example.json", "target": "/home/" }]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu"

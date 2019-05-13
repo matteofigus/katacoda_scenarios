@@ -19,12 +19,27 @@ Now you can see the available commands by typing:
 
 ## Step 3: Flip it
 
-To test the tool we'll use a JSON: `https://www.katacoda.com/matteofigus/scenarios/aws-cloudformation-tools/assets/example.json`{{open}}
+To test the tool let's create a basic JSON template:
+`echo '{"Description": "Test","Foo": { "Fn::Join": [" ", ["The", { "Ref": "cake" }, "is", "a", "lie"]] },"Bar": { "Fn::Base64": { "Ref": "Binary" } },"Baz": { "Fn::Sub": ["The cake is a...\n${CakeStatus}", { "CakeStatus": "lie" }] }}' >> example.json`
 
 Reading from stdin and outputting to stdout:
 `cat example.json | cfn-flip`{{execute}}
 
+Reading from a file and outputting to stdout:
 
-## Visit the docs
+`cfn-flip examples/test.yaml`{{execute}}
 
-Visit the Github repo to learn more about the tool and the available commands: [github.com/awslabs/aws-cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip)
+Reading from a file and outputting to another file:
+
+`cfn-flip examples/test.json output.yaml`{{execute}}
+
+Reading from a file and cleaning up the output:
+
+`cfn-flip -c examples/test.json`{{execute}}
+
+## Conclusion
+
+We'll remind you the repo link at the end of the tutorial, for you to take a photo in case you want to remember the link: [github.com/awslabs/aws-cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip).
+
+Now go to the next step to learn about another tool.
+ 
