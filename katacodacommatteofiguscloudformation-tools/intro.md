@@ -1,1 +1,4 @@
-In this scenarios you can learn how to use the new AWS CloudFormation developer tools.
+# AWS CloudFormation tools
+
+The AWS UK Solution Builders have developed a number of tools that improve the experience of developing and using CloudFormation.
+With this training you'll learn how to use some of these tools.

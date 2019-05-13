@@ -1,0 +1,1 @@
+In this scenarios you can learn how to use the new AWS CloudFormation developer tools.
