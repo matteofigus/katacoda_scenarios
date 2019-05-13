@@ -1,2 +1,3 @@
 apt-get update
-apt install -y python3-pip
+apt install -y python-pip python
+pip install --upgrade pip setuptools
