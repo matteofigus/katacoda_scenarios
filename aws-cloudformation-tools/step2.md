@@ -27,6 +27,6 @@ Well, that's a lot of stuff! You can use the `-b` parameter for creating the bar
 
 ## Conclusion
 
-We'll remind you the repo link at the end of the tutorial, for you to take a photo in case you want to remember the link: [github.com/awslabs/aws-cloudformation-template-builder](https://github.com/awslabs/aws-cloudformation-template-builder).
+We'll remind you the repo link at the end of the tutorial: [github.com/awslabs/aws-cloudformation-template-builder](https://github.com/awslabs/aws-cloudformation-template-builder).
 
 Now go to the next step to learn about another tool.

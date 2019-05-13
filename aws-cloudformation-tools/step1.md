@@ -39,7 +39,7 @@ Reading from a file and cleaning up the output:
 
 ## Conclusion
 
-We'll remind you the repo link at the end of the tutorial, for you to take a photo in case you want to remember the link: [github.com/awslabs/aws-cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip).
+We'll remind you the repo link at the end of the tutorial: [github.com/awslabs/aws-cfn-template-flip](https://github.com/awslabs/aws-cfn-template-flip).
 
 Now go to the next step to learn about another tool.
  
