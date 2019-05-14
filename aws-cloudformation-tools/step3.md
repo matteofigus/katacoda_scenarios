@@ -9,6 +9,8 @@ AWS Cloudformation Template Formatter is a command line tool and Go library that
 AWS CloudFormation Template Formatter can be installed using snap:
 `snap install cfn-format`{{execute}}
 
+*Mac user? You can install as Go binary too!*
+
 ## Step 2: Try it
 
 Now you can see the available commands by typing:

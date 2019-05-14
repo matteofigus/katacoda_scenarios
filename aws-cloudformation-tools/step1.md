@@ -11,6 +11,8 @@ The term "Flip" is inspired by the well-known Unix command-line tool [flip](http
 AWS CloudFormation Template Flip can be installed using snap:
 `snap install cfn-flip`{{execute}}
 
+*Mac user? You can install via PIP too!*
+
 ## Step 2: Try it
 
 Now you can see the available commands by typing:

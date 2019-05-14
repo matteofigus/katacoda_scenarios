@@ -9,6 +9,8 @@ AWS Cloudformation Template Builder is a command line tool and Go library that c
 AWS CloudFormation Template Builder can be installed using snap:
 `snap install cfn-skeleton`{{execute}}
 
+*Mac user? You can install as Go binary too!*
+
 ## Step 2: Try it
 
 Now you can see the available commands by typing:
